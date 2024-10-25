@@ -42,7 +42,6 @@ public class IdlingResourcesTest {
     public void registerIdlingResources() {
         IdlingRegistry.getInstance().register(EspressoIdlingResources.idlingResource);
     }
-
     @After
     public void unregisterIdlingResources() {
         IdlingRegistry.getInstance().unregister(EspressoIdlingResources.idlingResource);
